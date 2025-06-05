@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+.container1{
+    border: 2px solid black;
+    height: 540px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: beige;
+    box-sizing: border-box;
+}
+.top{
+    border: 2px solid black;
+    width: 325px;
+    height: 170px;
+    background-color: aquamarine;
+    margin-top: 13px;
+    margin-left: 8px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: monospace;
+    text-align: center;
+}
+.button{
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: 1px solid black;
+    height: 42px;
+    width: 73px;
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.button:hover{
+    border: 2px solid black;
+    background-color: aliceblue;
+    color: black;
+}
+#equal{
+    background-color: brown;
+    height: 80px;
+    font-size: 65px;
+}
+#clear{
+    height: 80px;
+    font-size: 65px;
+}
+#equal:hover{
+    border: 2px solid black;
+    background-color: aliceblue;
+}
+#plus{
+    background-color: blue;
+}
+#plus:hover{
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+#minus{
+    background-color: blue;
+}
+#minus:hover{
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+#multi{
+    background-color: blue;
+}
+#multi:hover{
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+#divide{
+    background-color: blue;
+}
+#divide:hover{
+    background-color: aliceblue;
+    border: 2px solid black;
+}
