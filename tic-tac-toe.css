@@ -43,9 +43,9 @@ body > .message{
 }
 td{
     height: 20vh;
-    width: 180px;
+    width: 10vw;
     text-align: center;
-    font-size: 150px;
+    font-size: 15vh;
     font-family: monospace;
 }
 #one{
